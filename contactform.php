@@ -20,5 +20,5 @@ $headers.= "Reply-To: $visitor_email \r\n";
 
 mail($to, $email_subject, $email_body, $headers);
 
-header("Location:sunkusrivishnu.github.io");
+header("Location:https://sunkusrivishnu.github.io");
 ?>
